@@ -2,14 +2,29 @@
 #include<stdlib.h>
 int main()
 {
-int a;
-scanf("%d",&a);
-if(a%2==0)
+int a[10],i,num;
+printf("enter the size of the array: \n);
+scanf("%d",&num);
+printf("enter the elements of an array: \n);
+for(i=0;i<num;i++)
 {
-printf("even");
+scanf("%d",&a[i]);
 }
-else
-printf("odd");
-return 0;
+printf("even numbers in the array: \n);
+for(i=0;i<num;i++)
+{
+if(a[i]%2==0)
+{
+printf("%d\t",a[i]);
+}
+}
+printf("\n");
+printf("odd numbers in the array: \n");
+for(i=0;i<num;i++)
+{
+if(a[i]%2!=0)
+{
+printf("%d\t",a[i]);
+}
 }
 }
