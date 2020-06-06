@@ -3,7 +3,7 @@
 int main()
 {
 int a[10],i,num,evencount=0,oddcount=0;
-printf("enter the size of the array: \n);
+printf("enter the size of the array: \n");
 scanf("%d",&num);
 printf("enter the elements of an array: \n);
 for(i=0;i<num;i++)
