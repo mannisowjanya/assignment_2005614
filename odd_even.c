@@ -31,6 +31,7 @@ printf("%d\t",a[i]);
 oddcount++;
 }
 }
-printf("\n number of odd numbers in the array: \n");
+printf("\n number of odd numbers in the array: ");
+printf("\n");
 printf("%d",oddcount);
 }
