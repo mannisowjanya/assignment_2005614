@@ -5,12 +5,12 @@ int main()
 int a[10],i,num,evencount=0,oddcount=0;
 printf("enter the size of the array: \n");
 scanf("%d",&num);
-printf("enter the elements of an array: \n);
+printf("enter the elements of an array: \n");
 for(i=0;i<num;i++)
 {
 scanf("%d",&a[i]);
 }
-printf("even numbers in the array: \n);
+printf("even numbers in the array: \n");
 for(i=0;i<num;i++)
 {
 if(a[i]%2==0)
